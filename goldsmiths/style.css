@@ -1,0 +1,59 @@
+.container {
+	width: 960px;  /*Sets the width of your webpage to 960px*/
+	margin: 0 auto;	
+}
+
+ p	{
+	padding: 10px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+h3	{
+	font-size: 40px;
+	font-weight: normal;
+	font-style: italic;
+	color: #193441;
+	text-align: center;
+}
+
+#menu	{		 
+		height: 80px;
+		margin: 30px auto;
+}
+
+	#menu ul {
+			width: 500px; 
+			margin: 0 auto;
+	}
+
+		#menu ul li {
+			width: 140px;
+			float:left;
+			list-style-type:none;
+			margin: 0 10px;
+
+		}
+
+			#menu ul li a 	{
+				display:block;
+				padding: 4px 0;
+				background-color: #3E606F;
+				color: #FCFFF5;
+				font-weight: normal;
+				text-transform: uppercase;
+				text-decoration: none;				
+				text-align: center;
+				letter-spacing: 1px;
+			 -webkit-transition: background-color 200ms ease-in-out;
+			 -moz-transition: background-color 200ms ease-in-out;
+			 -o-transition: background-color 200ms ease-in-out;
+			 -ms-transition: background-color 200ms ease-in-out;
+			 transition: background-color 200ms ease-in-out;			
+			}
+
+			#menu ul li a:hover	{
+				background-color: #A6C4BC;
+
+			}

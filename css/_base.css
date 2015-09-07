@@ -1,0 +1,484 @@
+/*
+ * Copyright: 2013 De Geist
+ * @degeist
+ *  Mobile & iPad (Screen width < 768px)
+ */
+
+
+/* Base style
+-------------------------------------------------- */
+html,body{height:100%;}
+
+/* 62.5% to normalise REM font sizing */
+html { font-size: 62.5%; } 
+
+body {
+  color: #000D11;
+	background: url('../img/bg.jpg') repeat #fff;
+	font-size: 12px; font-size: 1.2rem; /* px for fallback */
+	height:100%;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;	
+	
+}
+
+#footer	{
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+/* GENERAL STYLES
+-------------------------------------------------- */
+
+.box {
+  text-align: center;
+	margin-bottom: 7rem;
+	display: block;
+}
+
+.next-section	{
+	width: 50%;
+	position: relative;
+	z-index: 10;
+	padding-top: 50px 0 20px 0;
+	margin: 0 auto;
+	color: #ffffff;
+	text-align: center;
+}
+
+
+/* HEADER
+-------------------------------------------------- */
+a.brand	{
+	display: block;
+	max-width: 206px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	z-index: 5;
+	position: relative;
+	width: 60%;
+}
+
+.top-banner	{
+	padding: 20px 0;
+	position: relative;
+	min-height: 100%;
+}
+
+.top-banner	{
+	background: url(../img/bg-mobile.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+	
+.caption	{
+	display: none;
+}
+
+/* MAIN CONTENT
+------------------------- */
+.main	{
+	padding: 20px 0;
+	position: relative;
+	min-height: 100%;
+}
+
+.main .box p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+hr.featurette-divider {
+  margin: 50px 0;
+}
+
+.featurette {
+ /* padding-top: 60px; 8?
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -60px; /* To center img: add padding-top to .featurette, overflow:hidden to clear floats, and add negative margin (padding) to img  */
+}
+
+/* Add space to graphics */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* PEOPLE #122730
+-------------------------------------------------- */
+	
+.people	{
+		background: url('../img/mid-bg.png') repeat #122730;
+		-moz-box-shadow:   0 0 10px 6px #dde8ed;
+		-webkit-box-shadow: 0 0 10px 6px #dde8ed;
+		box-shadow:  0 0 10px 6px #dde8ed;
+		min-height: 100%;
+		position: relative;
+		display: block;
+		padding: 20px 0;
+	}
+	
+	.people img	{
+		width: 100%;
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	
+	.people p	{
+		color: #e9eadb;
+		text-align: center;
+		padding: 10px 0;
+	}
+	
+	.people .social-media 	{
+		margin-top: 20px;
+	}
+	
+	.people .social-media a	{
+		font-size: 20px;font-size: 2rem;
+		margin: 0 3px;		
+		text-decoration: none;
+		color: #e5e7cc;	
+	}
+
+
+	
+/* CONTACT 
+-------------------------------------------------- */	
+.contact	{
+		padding: 20px 0;
+		min-height: 70%;
+}	
+
+.contact h2.featurette-heading	{
+	background: none;
+	padding-bottom: 0;margin-bottom: 0;
+}
+
+.contact h3.subtitle	{
+	margin-bottom: 50px;
+	color: #C45A3F; 
+	letter-spacing: 6px;
+}
+
+.contact h2.contact-success	{
+		margin: 70px auto 0 auto; margin: 7rem auto 0 auto;
+		padding: 10px 0; padding: 1rem 0;
+		background: url('../img/b2.png') repeat transparent;
+		
+	}
+
+.front-contact-form	{
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	padding: 19px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.front-contact-form input,
+.front-contact-form textarea
+	{
+		border: 1px solid #e3e3e3;
+		background-color: #fbfbfb;
+		width: 100%;
+		padding: 4px 5px;
+
+}
+
+.front-contact-form input:focus,
+.front-contact-form textarea:focus	{
+	outline: #D0E0E2 solid 2px;
+			background-color: #fbfbfb;
+}
+
+.front-contact-form #message	{
+	min-height: 80px;
+}
+
+.front-contact-form label	{
+	clear: both;
+	display: block;
+	padding: 5px 0;
+	margin: 18px 0 0 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #5B8D96;
+}
+
+.buttons	{
+	width: 100%;
+	position: relative;
+	height: 4rem;
+}
+
+a.send	{
+	position: absolute;
+	right: 0;
+	margin: 10px 0;
+}
+
+.front-contact-form .error	{
+	display:none;
+	color: #C45A3F;
+	font-size:12px; font-size:1.2rem;
+	margin: 2px 0 20px 0
+}
+
+#loading	{
+	display:none;
+}
+
+#loading h3	{
+	color: #C45A3F;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+
+
+/* FOOTER 
+-------------------------------------------------- */
+#footer	{
+	background: url('../img/t2.png') repeat  transparent;
+	background: none;
+	padding: 3rem 0 2rem 0;
+}
+
+#footer p	{
+	color: #BAD1D3;	
+	text-align: center;
+	font-size: 12px; font-size: 1.2rem;
+	text-transform: uppercase;
+	margin: 7px 0;
+	font-family: Helvetica, Arial, serif;
+}
+
+
+/* TYPOGRAPHY
+-------------------------------------------------- */
+h1, h2, h3,.next-section span	{
+			font-family: 'Josefin Slab', 'Fauna One', Courier New, Courier, serif;
+			font-weight: 400;
+	}
+
+h1	{
+	font-weight: 700;
+ }
+
+h2	{
+	letter-spacing: 5px;
+	color: #5B8D96;
+	text-transform: uppercase;
+	font-size: 35px; font-size: 3.5rem;
+}
+
+	
+	h2.featurette-heading {
+		font-size: 45px;font-size: 4.5rem;
+		font-weight: 400;
+		letter-spacing: 3px;
+		margin: 0 0 6rem 0; 
+		text-align: center;
+	}
+
+	h2 .emph	{
+		color: #C45A3F;
+	}
+	
+	.no-space	{
+		margin: 0; padding: 4px 0;
+		text-align: center;
+	}
+
+h3.subtitle	{
+	font-size: 20px; font-size: 2rem;
+	margin: 0 0 8px 0; padding: 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #e5e7cc;
+}
+
+::selection {
+	background: #D0E0E2; 
+	}
+
+::-moz-selection {
+	background: #D0E0E2; 
+}
+
+#People h2.no-space::selection	{
+	background: #C45A3F;
+}
+
+#People h2.no-space::-moz-selection	{
+	background: #C45A3F;
+}
+
+
+
+/* MISC 
+-------------------------------------------------- */
+
+/* Graphics */
+
+input.bttn ,
+a.bttn	{
+	font-family: 'Josefin Slab', Courier New, Courier, serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+	display: inline-block;
+	margin: 10px 0 5px 0;
+	padding: 5px 14px;
+	width: auto;
+	font-size: 14px; font-size: 1.4rem;
+	line-height: 18px;
+	color: #E5EBE6; 	background-color: #5B8D96;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+ -webkit-transition: background-color 300ms ease-in-out;
+ -moz-transition: background-color 300ms ease-in-out;
+ -o-transition: background-color 300ms ease-in-out;
+ -ms-transition: background-color 300ms ease-in-out;
+ transition: background-color 300ms ease-in-out;		
+}
+
+input.bttn:hover, 
+input.bttn:focus,
+a.bttn:hover,
+a.bttn:focus	{
+	color: #E5EBE6;
+	background-color:  #122730;
+	text-decoration: none;
+}
+
+
+.bttn.send:hover,
+.bttn.send:focus	{
+
+}
+
+.connect-icons	{
+	padding: 30px;
+}
+
+.connect-icons img	{
+	width: 100%;
+}
+
+.connect-icons a	{
+	display: block;
+	height: 4rem;
+	width: 4rem;
+	font-size: 20px; font-size: 2rem;
+	padding: 10px 0; padding: 1rem;
+	background-color: #D0E0E2;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+ -webkit-transition: background-color 300ms ease-in-out;
+ -moz-transition: background-color 300ms ease-in-out;
+ -o-transition: background-color 300ms ease-in-out;
+ -ms-transition: background-color 300ms ease-in-out;
+ transition: background-color 300ms ease-in-out;	
+}
+
+	a.email:hover {
+		background-color: #c83913;	
+	}
+
+	a.linkedin:hover	{
+		background-color: #007fb1;
+	}
+
+	a.twitter:hover	{
+		background-color: #39a9e0;
+	}
+	
+	a.facebook:hover	{
+		background-color: #3B5998;
+	}
+
+	a.github:hover	{
+		background-color: #4183C4;
+	}	
+	
+	
+/* Scroll sections (hide on mobile)
+------------------------ */
+
+#stickynav	{
+	display: none;
+}
+
+.next-section	{
+	display: none;
+}
+
+/* Scroll styling 
+-------------------------- */
+
+section{min-height:100%;}
+
+.affix-top {
+  top: 32%; 
+	left: 0;
+	position:absolute;
+	z-index:1001;
+}
+.affix {
+  top: 50px;
+	left: 0;
+	z-index:1001;
+}
+
+#stickynav {
+	z-index: 1005;
+	left: 0;
+	padding: 7px;
+	padding-top: 12px;
+	font-size: 2em;
+
+}
+#stickynav ul {
+	list-style: none;
+	margin:0;
+	width: 100%;
+}
+#stickynav li {
+	position: relative;
+	border-radius: 0;
+	cursor: pointer;
+	height: auto;
+	margin: 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+#stickynav li.active a {
+	color:  #5B8D96;
+}
+#stickynav li:hover {}
+#stickynav a {
+	outline: 0;
+	text-decoration: none;
+	position: relative;
+	color:  #e5e7cc ;
+}
+
+#stickynav a:hover	{
+	color: #5B8D96
+}
+
+.next-section	{
+	display: none;
+}

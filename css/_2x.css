@@ -1,0 +1,26 @@
+/*
+ * Copyright: 2013 De Geist
+ * @degeist
+ */
+
+
+/* Retina displays
+-------------------------------------------------- */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+ .top-banner	{
+	background: url(../img/bg-mobile.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+	}
+ 
+ .people	{
+		background: url('../img/mid-bg@2x.png') repeat #122730;
+	}  
+}
+
+

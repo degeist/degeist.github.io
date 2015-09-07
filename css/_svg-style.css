@@ -1,0 +1,14 @@
+
+
+
+path.style0  {  
+			stroke:	#5B8D96;
+					stroke-width:	2;
+					stroke-miterlimit:	10;
+					fill:	none;
+        -webkit-transition: all 350ms;  
+    }  
+			path.style0:hover {  
+					fill: green; 
+	stroke:	#5B8D96;					
+			}

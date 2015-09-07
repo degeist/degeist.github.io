@@ -1,0 +1,232 @@
+/*
+ * Copyright: 2013 De Geist
+ * @degeist
+ *  Mobile & iPad (Screen width < 768px)
+ */
+
+
+/* Base style
+-------------------------------------------------- */
+html,body {height:100%;}
+
+/* 62.5% to normalise REM font sizing */
+html { font-size: 62.5%; } 
+
+body {
+  color: #515151;
+	background: url('../img/TT-bg.jpg') repeat #fff;
+	font-size: 12px; font-size: 1.2rem; /* px for fallback */
+	/*overflow: scroll; 
+	-webkit-overflow-scrolling: touch;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 	
+}
+
+
+/* HEADER
+-------------- */
+.header	{
+	padding: 10px;
+	height: 60px;
+}
+
+	img.logo	{
+		float: left;
+	}
+
+	ul#menu	{
+		list-style: none;
+		list-style-image: none;
+		float: right;
+	}
+
+	ul#menu li	{
+		display: inline;
+		float: left;
+		margin-right: 10px;		
+	}
+	
+		ul#menu li a		{
+			font-size: 20px;
+			font-size: 2rem;
+			background-color: #515151;
+			color: #fff;
+			padding: 6px;
+			display: block;
+		}
+
+		ul#menu li a:hover		{
+			background-color: #6bd8b4;
+			color: #fff;
+		}	
+
+		ul#menu li a.active	{
+			background-color: #6bd8b4;
+		}		
+		
+
+/* MAIN CONTENT
+------------------------- */
+.main	{
+	background-color: #515151;
+	padding: 40px 60px;
+	width: 100%;
+	margin-top: 20%;
+}
+
+	.main p	{
+		line-height: 1.4;
+		color: #fff;
+		font-family: 'PT Sans', sans-serif;
+	}
+	
+	
+
+
+/* FOOTER 
+-------------------------------------------------- */
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -40px;
+  /* Pad bottom by footer height */
+  padding: 0 0 40px;
+}
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 40px;
+	font-weight: 400;
+	font-size: 0.9rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-family: 'Gotham', 'Montserrat', Helvetica, sans-serif;
+}
+
+	.footer p	{
+		line-height: 1.6rem;
+		vertical-align: middle;
+	}
+
+/* TYPOGRAPHY
+-------------------------------------------------- */
+h1, h2, h3	{
+			font-family: 'Gotham', 'Montserrat', Helvetica, sans-serif;
+			font-weight: 400;
+			text-transform: uppercase;
+	}
+
+h1	{
+		font-weight: 700;
+		letter-spacing: 4px;
+		color: #6bd8b4;
+		font-size: 15px;
+		font-size: 1.5rem;
+ }
+
+h2	{}
+
+::selection {
+	background: #d5f0e8; 
+	}
+
+::-moz-selection {
+	background: #d5f0e8; 
+}
+
+
+/* MISC 
+-------------------------------------------------- */
+
+/* Graphics */
+
+p .symbol	{
+	font-size: 1.6rem;
+}
+
+input.bttn ,
+a.bttn	{
+	font-family: 'Josefin Slab', Courier New, Courier, serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;	
+	display: inline-block;
+	margin: 10px 0 5px 0;
+	padding: 5px 14px;
+	width: auto;
+	font-size: 14px; font-size: 1.4rem;
+	line-height: 18px;
+	color: #E5EBE6; 	background-color: #5B8D96;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+ -webkit-transition: background-color 300ms ease-in-out;
+ -moz-transition: background-color 300ms ease-in-out;
+ -o-transition: background-color 300ms ease-in-out;
+ -ms-transition: background-color 300ms ease-in-out;
+ transition: background-color 300ms ease-in-out;		
+}
+
+input.bttn:hover, 
+input.bttn:focus,
+a.bttn:hover,
+a.bttn:focus	{
+	color: #E5EBE6;
+	background-color:  #122730;
+	text-decoration: none;
+}
+
+
+.bttn.send:hover,
+.bttn.send:focus	{
+
+}
+
+.connect-icons	{
+	padding: 30px;
+}
+
+.connect-icons img	{
+	width: 100%;
+}
+
+.connect-icons a	{
+	display: block;
+	height: 4rem;
+	width: 4rem;
+	font-size: 20px; font-size: 2rem;
+	padding: 10px 0; padding: 1rem;
+	background-color: #D0E0E2;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+ -webkit-transition: background-color 300ms ease-in-out;
+ -moz-transition: background-color 300ms ease-in-out;
+ -o-transition: background-color 300ms ease-in-out;
+ -ms-transition: background-color 300ms ease-in-out;
+ transition: background-color 300ms ease-in-out;	
+}
+
+	a.email:hover {
+		background-color: #c83913;	
+	}
+
+	a.linkedin:hover	{
+		background-color: #007fb1;
+	}
+
+	a.twitter:hover	{
+		background-color: #39a9e0;
+	}
+	
+	a.facebook:hover	{
+		background-color: #3B5998;
+	}
+
+	a.github:hover	{
+		background-color: #4183C4;
+	}	

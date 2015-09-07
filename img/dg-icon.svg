@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" version="1.1" x="0px" y="0px" width="150px" height="150px" viewBox="-7.26 -27.78 150 150" enable-background="new -7.26 -27.78 150 150" xml:space="preserve">
+<?xml-stylesheet type="text/css" href="screen.css"?> 
+<style>
+	.style0{
+		stroke:	#5B8D96;
+		stroke-width:	3;
+		stroke-miterlimit:	10;
+		fill:	none;
+	}
+</style>
+<defs>
+</defs>
+<polyline points="132.82,1.22 13.32,86.16 1.99,17.74 123.03,86.16 130.11,39.21" class="style0"/>
+</svg>

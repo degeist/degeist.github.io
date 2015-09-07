@@ -1,0 +1,194 @@
+/*  */
+
+html,body {
+	height: 100%;
+}
+
+
+body 	{	
+	margin: 0; padding: 0;
+	font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif; 
+	font-size: small;
+	
+}
+
+/* Here we declare different backgrounds for each page (the <body class="xxxx"> is used to identify each page). 
+Note that the image fills out entire screen because of the "cover" declaration. Read more here: http://css-tricks.com/perfect-full-page-background-image/ */
+
+.intro 	{
+	background: url(../img/011.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	height: 100%;
+}
+
+.story	{
+	background: url(../img/101.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	height: 100%;
+}
+
+.actors	{
+	background: url(../img/231.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;	
+}
+
+.trailer	{
+	background: url(../img/071.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	height: 100%;
+	padding: 50px 0 0 0;
+}
+
+.container	{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.caption	{
+	padding: 200px 0;
+}
+
+/* remove padding on .trailer area so youtube video gets closer to top */
+.trailer .caption	{
+	padding: 50px 0 0 0;
+}
+
+#footer		{
+	margin: 6px auto 0 auto;
+	width: 100%;
+	color: #D1DBBD;
+	clear:both;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+}
+
+
+/* Menu style 
+Here we are taking a list (<ul>) and makes it float left. This turns it into a horisontal menu.
+Onhover effect with an ease in & out effect.
+
+ */
+
+#menu	{		 
+		height: 80px;
+		margin: 10px auto;
+}
+
+#menu ul {
+		width: 690px; 
+			margin: 0 auto;
+}
+
+#menu ul li {
+	width: 140px;
+	float:left;
+	list-style-type:none;
+	margin: 0 10px;
+
+}
+
+#menu ul li a 	{
+	display:block;
+	padding: 4px 0;
+	background-color: #3E606F;
+	color: #FCFFF5;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+ -webkit-transition: background-color 200ms ease-in-out;
+ -moz-transition: background-color 200ms ease-in-out;
+ -o-transition: background-color 200ms ease-in-out;
+ -ms-transition: background-color 200ms ease-in-out;
+ transition: background-color 200ms ease-in-out;			
+}
+
+#menu ul li a:hover	{
+	background-color: #A6C4BC;
+}
+
+/* Typography 
+-----------------------------*/
+
+h1 {
+	color: #fff;
+	text-align: center;
+	padding: 5px; margin: 5px;
+}
+
+h2 {
+	font-size: 100px;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	padding: 0; margin: 0;
+	font-family: 'Playfair Display', Georgia, 'Palatino Linotype', 'Times New Roman', serif;
+}
+
+h3	{
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-style: italic;
+	color: #193441;
+	text-align: center;
+	padding: 0; margin: 0;
+	background: url(../img/t2.png) repeat transparent;
+}
+
+p	{
+	padding: 10px;
+	background: url(../img/b2.png) repeat transparent;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+#footer p	{
+	background: none;
+}
+
+/* Links 
+-----------------------------*/
+
+a, a:visited	{
+	color: #91AA9D;
+	font-weight: bold;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover	{
+		color: #D1DBBD;
+}
+
+/* Graphics */
+a img	{
+	border: none;
+	text-decoration: none;
+}
+
+/* Home styling
+CSS for the home page
+ */
+body.home #main	{
+	margin-top: 20%;
+}
+
+
+section{height:100%;}
+

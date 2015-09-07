@@ -1,0 +1,15 @@
+/*
+ * Copyright: 2013 De Geist
+ * @degeist
+ */
+
+
+/* Big screen css
+-------------------------------------------------- */
+
+@media screen and (min-width: 1030px) {
+
+	body	{
+	font-size: 16px; font-size: 1.6rem; /* reset base font-size for bigger screens */
+}
+}
