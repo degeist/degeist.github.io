@@ -1,0 +1,26 @@
+/*
+ * Copyright: 2013 De Geist
+ * @degeist
+ */
+
+
+/* Medium sized displays
+-------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+
+/* HEADER
+-------------------------- */
+body	{
+font-size: 14px; font-size: 1.4rem; /* reset base font-size for bigger screens */
+}
+
+
+/* TYPOGRAPHY
+-------------------------- */
+h1	{
+	text-transform: uppercase;
+	
+}
+
+}
