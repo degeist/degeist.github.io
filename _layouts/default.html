@@ -38,13 +38,13 @@
     <meta content='{{ site.url }}' property='og:url'>
     <meta content='{{ site.name }}' property='og:site_name'>
     <meta content='{{ site.description }}' property='og:description'>
-    <meta content='{{ "/img/social-media/fb.jpg" | prepend: site.url }}' property='og:image'>
+    <meta content='{{ "/img/dg-string-logo-sm.png" | prepend: site.url }}' property='og:image'>
     <!-- / Twitter cards -->
     <meta content='summary_large_image' name='twitter:card'>
     <meta content='@{{ site.twitter_username }}' name='twitter:site'>
     <meta content='{{ site.description }}' name='twitter:title'>
     <meta content='{{ site.description }}' name='twitter:description'>
-    <meta content='{{ "/img/social-media/twitter.jpg" | prepend: site.url }}' name='twitter:image'>
+    <meta content='{{ "/img/dg-string-logo-sm.png" | prepend: site.url }}' name='twitter:image'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,7 +54,7 @@
     <![endif]-->
 
     <!-- / Typography -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Fauna+One' rel='stylesheet' type='text/css'>
 
     <!-- / Vendor scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -63,5 +63,13 @@
   </head>
   <body>
     {{ content }}
+
+      <!-- Load javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/holder.js"></script>
   </body>
 </html>
