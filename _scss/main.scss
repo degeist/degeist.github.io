@@ -1,8 +1,8 @@
 @import "utils/variables";
-@import "bootstrap/bootstrap";
+//@import "bootstrap/bootstrap";
 
 // Globals
-@import "globals/typography";
+//@import "globals/typography";
 
 // Elements
 @import "elements/buttons";
@@ -14,6 +14,7 @@
 @import "sections/footer";
 @import "sections/nav";
 
+@import "bootstrapdump.scss";
 @import "cssdump.scss";
 
 

@@ -1,41 +1,20 @@
-.navbar {
-  .btn {
-    font-size: $font-size-sm;
-    color: transparentize(white, .2);
-    background-color: transparent;
-    border: none;
+.a.brand {
+  display: block;
+  max-width: 206px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+  z-index: 5;
+  position: relative;
+  width: 60%; }
 
-    &--signup {
-      border: 1px solid transparentize(white, .2);
-    }
+.top-banner {
+  padding: 20px 0;
+  position: relative;
+  min-height: 100%; }
 
-    &:hover, &:focus, &:active  {
-      border-color: white;
-      color: white;
-    }
-  }
+.top-banner {
+  background: url(/img/bg-mobile.jpg) no-repeat center center fixed;
+  background-size: cover; }
 
-  @include media-breakpoint-down(sm) {
-    .navbar-toggleable-sm {
-      padding-top: $spacer-y;
-    }
-  }
-
-}
-
-a.logo {
-  display: inline-block;
-  width: 150px;
-  height: 30px;
-
-  svg {
-    width: 150px;
-    position: relative;
-    display: inline-block;
-    fill: white;
-
-    &:hover {
-      fill: lighten($brand-primary,30%);
-    }
-  }
-}
+.caption {
+  display: none; }

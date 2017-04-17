@@ -14,8 +14,7 @@ html { font-size: 62.5%; }
 
 body {
   color: #000D11;
-  background-color: red;
-	//background: url('/img/bg.jpg') repeat #fff;
+	background: url('/img/bg.jpg') repeat #fff;
 	font-size: 12px; font-size: 1.2rem; /* px for fallback */
 	height:100%;
 	overflow: scroll;
@@ -248,20 +247,6 @@ a.send	{
 
 /* FOOTER
 -------------------------------------------------- */
-#footer	{
-	background: url('/img/t2.png') repeat  transparent;
-	background: none;
-	padding: 3rem 0 2rem 0;
-}
-
-#footer p	{
-	color: #BAD1D3;
-	text-align: center;
-	font-size: 12px; font-size: 1.2rem;
-	text-transform: uppercase;
-	margin: 7px 0;
-	font-family: Helvetica, Arial, serif;
-}
 
 
 /* TYPOGRAPHY
